@@ -1,8 +1,8 @@
 FinVue.Pro | High-Fidelity Financial Intelligence Workstation
 FinVue.Pro is a professional-grade, reactive financial dashboard designed to provide real-time liquidity insights through high-density data visualization and intuitive role-based management.
-https://finvue-pro.netlify.app/
-Built with React, Tailwind CSS, and Recharts, it simulates an enterprise-level financial environment focusing on clarity, security, and operational efficiency.
 
+Built with React, Tailwind CSS, and Recharts, it simulates an enterprise-level financial environment focusing on clarity, security, and operational efficiency.
+Link : https://finvue-pro.netlify.app/
 🚀 Key Features
 1. Advanced Real-Time Analytics
 Dynamic Intelligence Engine: Utilizes React useMemo hooks to perform real-time recalculations of net balance, categorical spending, and transaction volume without compromising performance.
