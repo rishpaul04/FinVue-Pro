@@ -1,16 +1,56 @@
-# React + Vite
+FinVue.Pro | High-Fidelity Financial Intelligence Workstation
+FinVue.Pro is a professional-grade, reactive financial dashboard designed to provide real-time liquidity insights through high-density data visualization and intuitive role-based management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built with React, Tailwind CSS, and Recharts, it simulates an enterprise-level financial environment focusing on clarity, security, and operational efficiency.
 
-Currently, two official plugins are available:
+🚀 Key Features
+1. Advanced Real-Time Analytics
+Dynamic Intelligence Engine: Utilizes React useMemo hooks to perform real-time recalculations of net balance, categorical spending, and transaction volume without compromising performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Multi-Dimensional Visualization: * Area Trend Analysis: Smooth monotone area charts with SVG linear gradients for tracking balance volatility.
 
-## React Compiler
+Donut Breakdown: Instant categorical spending allocation with interactive tooltips.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Stacked Volume Comparison: Vertical bar charts to compare inflow vs. outflow velocity.
 
-## Expanding the ESLint configuration
+2. Enterprise-Grade UX & Security
+Role-Based Access Control (RBAC): Simulated administrative layer. Admin users have full CRUD (Create, Read, Update, Delete) permissions, while Viewer users are restricted to a read-only audit trail.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Privacy Masking: A global "Sensitive Data" toggle that applies high-radius CSS blurs to financial figures—ideal for public environment usage.
+
+Adaptive Theming: A comprehensive Dark Mode system utilizing a custom semantic color palette to reduce eye strain during long-term data analysis.
+
+3. High-Utility Ledger
+Live Querying: Real-time search filtering across the transaction database.
+
+Audit Trail: Detailed ledger entries with automated semantic color-coding (Emerald for credits, Rose for debits).
+
+Optimistic UI: Instant local state updates to ensure a lag-free experience during data entry.
+
+🛠️ Technical Stack
+Framework: React 18 (Vite)
+
+Styling: Tailwind CSS (Modern depth-based UI / Neumorphism-lite)
+
+State Management: React Hooks (useState, useEffect, useMemo)
+
+Visualizations: Recharts (D3-based)
+
+Icons: Lucide-React
+
+Persistence: LocalStorage API for cross-session data retention.
+
+⚙️ Installation & Setup
+Clone the Repository:
+
+Bash
+git clone <your-repository-url>
+cd finance-dashboard
+Install Dependencies:
+
+Bash
+npm install
+Run Development Server:
+
+Bash
+npm run dev
